@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*
+ Filename:    languages.css
+ Author:      YOUR NAME (username)
+ Date:        Fall 2022
+ Purpose:     Assignment #3 Indigenous languages style sheet
+ */
+
+
+/* HTML and body styles */
+body {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 960px;
+    min-width: 640px;
+}
+
+
+/* Header and menu styles */
+header {
+    width: 100%;
+    margin: 20px auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+ul.submenu {
+    background-color: lightgoldenrodyellow;
+}
+
+.submenuTitle {
+    background-color: palegreen;
+}
+
+nav ul a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+nav ul a:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: palegreen;
+    font-variant: small-caps;
+    margin: 0;
+    padding: 1em;
+}
